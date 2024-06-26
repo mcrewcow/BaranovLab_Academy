@@ -50,7 +50,7 @@ D59fetalS = CreateSeuratObject(counts = D59fetal)
 
 D59fetalS[["percent.rb"]] <- PercentageFeatureSet(D59fetalS, pattern = "^Rps|^Rpl|^Mrps|^Mrpl", assay = 'RNA') #change to uppercase for human
 D59fetalS[["percent.mt"]] <- PercentageFeatureSet(D59fetalS, pattern = "^mt-") #change to uppercase for human
-D59fetalS <- CellCycleScoring(D59fetalS, s.features = m.s.genes, g2m.features = m.g2m.genes, set.ident = FALSE, nbin = 12) #remove 'm.' if operating with human data
+D59fetalS <- CellCycleScoring(D59fetalS, s.features = m.s.genes, g2m.features = m.g2m.genes, set.ident = FALSE) #remove 'm.' if operating with human data
 VlnPlot(D59fetalS, features = c("nFeature_RNA", "nCount_RNA", "percent.mt", 'percent.rb'), ncol = 4)
 D59fetalS <- subset(D59fetalS, subset = nCount_RNA > 300 & nCount_RNA < 40000 & nFeature_RNA > 300 & nFeature_RNA < 6000 & percent.mt < 30 & percent.rb < 40)
 
