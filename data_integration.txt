@@ -1,0 +1,8 @@
+Approaches:
+1. Seurat integration - https://www.cell.com/cell/pdf/S0092-8674(19)30559-8.pdf
+2. Harmony - https://www.nature.com/articles/s41592-019-0619-0
+3. SCTransform - https://genomebiology.biomedcentral.com/articles/10.1186/s13059-019-1874-1
+
+Additional:
+1. Housekeeping genes - https://www.cell.com/trends/genetics/fulltext/S0168-9525(13)00089-9 and https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6748759/
+2. Methods review - https://www.nature.com/articles/s41592-021-01171-x
