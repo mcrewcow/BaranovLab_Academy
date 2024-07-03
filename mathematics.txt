@@ -1,4 +1,4 @@
-#Papers
-#PCA - https://hbctraining.github.io/scRNA-seq/lessons/05_normalization_and_PCA.html and https://www.sciencedirect.com/science/article/abs/pii/009830049390090R and https://en.wikipedia.org/wiki/Principal_component_analysis
-#UMAP - https://arxiv.org/abs/1802.03426
-#Neighbors -https://en.wikipedia.org/wiki/Nearest_neighbor_graph#:~:text=For%20a%20set%20of%20points%20on%20a%20line%2C%20the%20nearest,log%20n)%20time%20by%20sorting. and https://arxiv.org/pdf/2112.02234
+Papers
+1. PCA - https://hbctraining.github.io/scRNA-seq/lessons/05_normalization_and_PCA.html and https://www.sciencedirect.com/science/article/abs/pii/009830049390090R and https://en.wikipedia.org/wiki/Principal_component_analysis
+2. UMAP - https://arxiv.org/abs/1802.03426
+3. Neighbors -https://en.wikipedia.org/wiki/Nearest_neighbor_graph#:~:text=For%20a%20set%20of%20points%20on%20a%20line%2C%20the%20nearest,log%20n)%20time%20by%20sorting. and https://arxiv.org/pdf/2112.02234
