@@ -6,7 +6,7 @@ cellchat@DB <- CellChatDB.use
 cellchat <- subsetData(cellchat)
 cellchat <- identifyOverExpressedGenes(cellchat)
 cellchat <- identifyOverExpressedInteractions(cellchat)
-cellchat <- projectData(cellchat, PPI.human)
+cellchat <- projectData(cellchat, PPI.human) #or cellchat <- smoothData(cellchat, adj = PPI.human) if version > 2.1.0
 cellchat <- computeCommunProb(cellchat, type = "truncatedMean", trim = 0.1, raw.use = FALSE, population.size = FALSE)
 cellchat <- filterCommunication(cellchat, min.cells = 3)
 cellchat <- computeCommunProbPathway(cellchat)
