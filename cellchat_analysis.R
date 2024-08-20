@@ -1,3 +1,4 @@
+library(CellChat) #built on v2.1.0
 cellchat <- createCellChat(object = Ziming_vivo , group.by = "anno_cc")
 CellChatDB <- CellChatDB.human
 CellChatDB.use <- CellChatDB
